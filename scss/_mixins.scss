@@ -1,0 +1,14 @@
+@mixin body-font() {
+  font-family: 'Lato';
+  font-family: 'Nanum Gothic'
+  font-family: 'bigjohn';
+	src:local("bigjohn"),
+		url('../font/BIG_JOHN.eot'),
+		url('../font/BIG_JOHN.woff') format("woff"),
+		url('../font/BIG_JOHN.ttf') format("truetype");
+}
+
+@mixin heading-font() {
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
